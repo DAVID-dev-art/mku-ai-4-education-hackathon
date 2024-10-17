@@ -7,7 +7,7 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.linear_model import LinearRegression
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_percentage_error
-
+df=pd.read_excel("/content/tracker.xlsx")
 # Encode categorical variables
 label_encoder = LabelEncoder()
 
